@@ -1,0 +1,52 @@
+/*Estilização padrao da pagina*/
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Estilização do HEADER da pagina*/
+header{
+    background-color: rgb(230, 153, 191);
+    padding-bottom: 0px;
+}
+.logo{
+    width: 10%;
+    padding-left: 7%;
+}
+
+nav{
+    color: rgb(146, 68, 120);
+    position: absolute;
+    top: 10%;
+    font-size: 28;
+    right: 2%;
+    font-family: cursive;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+    
+}
+.divHeader{
+    position: relative;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.sobre_nos{
+    width: 60%;
+    margin-left: 20%;
+    text-align: justify;
+    font-size: 20px;
+}
+.img_sobre_nos{
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+.titulo_sobre_nos{
+    clear: left;
+    text-align: center;
+}
